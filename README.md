@@ -55,3 +55,6 @@ The execution begins from TrainingOrganizerMaster.cs. Pass the input filename in
 - ExtractSessionDetailsToXML - The class reads the input file and converts it to a XML file named SessionData.xml. The file get stored at C:\temp\.
 - Training - Primarily used to serialize the data. Raw format to XML.
 
+# Is there any sample input file to test the program?
+Yes. A sample file is available inside config.
+https://github.com/sayaksaha/RandomSessionScheduler/blob/master/RandomScheduler/config/SessionDataRaw.txt
