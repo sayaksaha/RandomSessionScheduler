@@ -56,5 +56,5 @@ The execution begins from TrainingOrganizerMaster.cs. Pass the input filename in
 - Training - Primarily used to serialize the data. Raw format to XML.
 
 # Is there any sample input file to test the program?
-Yes. A sample file is available inside config.
+Yes. A sample input file is available inside config folder of the project.
 https://github.com/sayaksaha/RandomSessionScheduler/blob/master/RandomScheduler/config/SessionDataRaw.txt
