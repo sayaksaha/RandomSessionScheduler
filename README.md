@@ -40,16 +40,16 @@ Piped Water                                 | 30 min
 Two-Streams or Not Two-Streams              | 30 min
 So They Say You're a Devil Worshipper       | 60 min
 
-# Constraints in brief
+# Business Logic :
 
 1. The schedule need to be random and the output should be unique in every run.
 2. There are 2 sessions before/& after lunch. Each spans around 120 mins.
 3. Fill the buffers (leftover time) in b/w any sessions with breaks (adhoc-break)
 
-# How to execute the program ?
+# Execution Steps :
 The execution begins from TrainingOrganizerMaster.cs. Pass the input filename in above format as command line argument.
 
-# The Project Structure in brief:
+# The Project Structure & constituent classes:
 - TrainingOrganizationMaster - The Master class which controls the execution.
 - CustomException - Custom Exception class to read exception in details
 - ExtractSessionDetailsToXML - The class reads the input file and converts it to a XML file named SessionData.xml. The file get stored at C:\temp\.
