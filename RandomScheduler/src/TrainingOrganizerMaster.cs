@@ -41,7 +41,7 @@ namespace RandomScheduler.src
                 if (args.Any())
                     {
                     path = args[0];
-                     }
+                    }
                 DS.convertRawDataToXML(path);
                 }
             catch (CustomException CE)

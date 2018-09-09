@@ -27,12 +27,11 @@ namespace RandomScheduler.src
 
             try
                 {
-                //lines = File.ReadAllLines("c:\\users\\sayak_saha\\documents\\visual studio 2015\\Projects\\RandomScheduler\\RandomScheduler\\config\\SessionDataRaw.txt");
                 lines = File.ReadAllLines(path);
                 }
-            catch (IOException)
+            catch (CustomException CE)
                 {
-                Console.WriteLine(" string[] lines = File.ReadAllLines");
+                CE.DumpException();
                 }
 
             try
@@ -47,9 +46,9 @@ namespace RandomScheduler.src
                 xmlDoc = new XmlDocument();
 
                 }
-            catch
+            catch (CustomException CE)
                 {
-                Console.WriteLine("FileStream fs = new FileStream");
+                CE.DumpException();
                 }
 
             int TrainingID = 1;
@@ -80,6 +79,6 @@ namespace RandomScheduler.src
                 CE.DumpException();
                 }
             }
-        
+
         }
     }
